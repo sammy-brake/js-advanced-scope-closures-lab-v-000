@@ -3,6 +3,12 @@ function produceDrivingRange(range) {
     let distanceOne = parseInt(numberOne);
     let distanceTwo = parseInt(numberTwo);
     let testRange = Math.abs(distanceTwo - distanceOne);
+    let returnValue = range - testRange;
+     if (returnValue > 0) {
+       return `within range by ${returnValue}`
+     } else {
+       return `${Math.abs(returnValue)} out of range`;
+     }
 
   };
 };
