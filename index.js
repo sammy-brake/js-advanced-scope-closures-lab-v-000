@@ -3,7 +3,7 @@ function produceDrivingRange(range) {
     let distanceOne = parseInt(numberOne);
     let distanceTwo = parseInt(numberTwo);
     let testRange = Math.abs(distanceTwo - distanceOne);
-    
+
   };
 };
 
